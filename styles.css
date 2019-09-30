@@ -56,6 +56,10 @@ hr.my-program-divider {
 	margin: auto;
 }
 
+.owl-carousel .owl-item {
+	margin:0px 15px 0px 15px;
+}
+
 .owl-item{
 	width: 218px !important;
 }
