@@ -19,7 +19,7 @@
 }
 
 .owl-stage-outer{
-	max-height: 450px !important;
+	height: 500px !important;
 	width: 90%;
 	margin: auto;
 }
