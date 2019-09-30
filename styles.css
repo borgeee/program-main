@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap');
+
+.oswald {font-family: 'Oswald', sans-serif !important;}
+.roboto {font-family: 'Roboto', sans-serif !important;}
+.red{color: #ff0000;}
+.gray{color:#f7f7f7;}
+.clear {clear: both;}
+
+.my-program-box {
+	width: 218px;
+	display: inline-block;
+	margin-top: 150px;
+	margin-right: 30px;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.34);
+	-moz-box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.34);
+	box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.34);
+}
+
+.owl-stage-outer{
+	max-height: 450px !important;
+	width: 90%;
+	margin: auto;
+}
+
+.owl-item{
+	width: 218px !important;
+}
+
+
+.owl-prev{
+	float: left;
+	background: url(img/arrow.png) no-repeat center !important;
+	width: 40px;
+	height: 75px;
+	color: #fff !important;
+	transform: rotate(180deg);
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+
+
+.owl-next{
+	float: right;
+	background: url(img/arrow.png) no-repeat center !important;
+	width: 40px;
+	height: 75px;
+	color: #fff !important;
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+
+.best-selling-box{
+	text-align: left;
+	padding: 0px 10px;
+	min-height: 65px;
+}
+
+
+.best-selling-title{float: left; width: 85%;}
+.best-selling-info {float: right;}
+
+a {
+	color: #000;
+}
+
+h5 {
+	font-size: 14px;
+	padding: 10px 0px;
+}
+
+.thumb{
+	width: 218px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.thumb-modal{
+	width: 218px;
+	float: left; 
+	margin-right: 10px;
+}
+
+.info-btn{
+	width: 20px !important;
+	height: 20px;
+	cursor: pointer;
+	margin-top: 10px;
+}
