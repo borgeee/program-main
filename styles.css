@@ -7,11 +7,43 @@
 .gray{color:#f7f7f7;}
 .clear {clear: both;}
 
+.logo-main{
+	margin: 100px auto 10px auto;
+	text-align: center;
+}
+
+h3.my-program-title{
+	font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal !important;
+    color: #000 !important;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.best-seller{
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 40px 0px 20px 0px;
+}
+
+hr.my-program-divider {
+    width: 6%;
+    margin: -5px auto 35px auto;
+    background-color: #5f5f5f;
+ }
+
+.program-content{
+	margin-bottom: auto auto 20px auto;
+	text-align: center;
+}
+
 .my-program-box {
 	width: 218px;
 	display: inline-block;
-	margin-top: 150px;
-	margin-right: 30px;
+	/*margin-top: 150px;*/
+	margin:0px 10px 30px 10px;
 	border-radius: 5px;
 	-webkit-box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.34);
 	-moz-box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.34);
@@ -19,7 +51,7 @@
 }
 
 .owl-stage-outer{
-	height: 500px !important;
+	height: 300px !important;
 	width: 90%;
 	margin: auto;
 }
@@ -36,8 +68,9 @@
 	color: #fff !important;
 	transform: rotate(180deg);
 	position: absolute;
-	top: 50%;
+	top: 30%;
 	left: 0;
+	outline: none;
 }
 
 
@@ -47,8 +80,9 @@
 	height: 75px;
 	color: #fff !important;
 	position: absolute;
-	top: 50%;
+	top: 30%;
 	right: 0;
+	outline: none;
 }
 
 
@@ -87,4 +121,24 @@ h5 {
 	height: 20px;
 	cursor: pointer;
 	margin-top: 10px;
+}
+
+.facilitator{
+	margin: auto;
+	text-align: center;
+}
+
+.figure{
+		padding: 0px 20px;
+}
+
+.figure-caption{
+	text-align: center;
+	color: #000;
+}
+
+
+footer{
+	background-color: #45c2bc;
+	margin: auto;
 }
