@@ -112,6 +112,7 @@ h5 {
 .thumb{
 	width: 218px;
 	border-radius: 5px 5px 0px 0px;
+	cursor: pointer;
 }
 
 .thumb-modal{
